@@ -1,0 +1,18 @@
+[package]
+name = "proteogenomics"
+version = "0.8.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+authors = ["Gaurav Sablok"]
+description = "proteogenomics"
+homepage = "https://codeberg.org/gsablok/proteogenomics"
+repository = "https://codeberg.org/gsablok/proteogenomics"
+keywords = ["bioinformatics","genomics"]
+
+[dependencies]
+clap = { version = "4.5.27", features = ["derive"] }
+figlet-rs = "0.1.5"
+rayon = "1.11.0"
+smartcore = { version = "0.4.7", features = ["datasets", "std_rand"] }
+flodl = "0.1.5"
